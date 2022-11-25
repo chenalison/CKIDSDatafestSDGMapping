@@ -39,9 +39,11 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
+      {% if page.showtoc %}
       <section id="sidebar">
         {% include toc.html html=content ordered=true %}
       </section>
+      {% endif %}
       <section id="main_content" class="inner">
         {{ content }}
       </section>
