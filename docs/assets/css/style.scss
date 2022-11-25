@@ -64,9 +64,17 @@ nav a:hover {
     color: black;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 1em;
+    margin: 0;
+}
+
 footer {
     padding: 30px;
     text-align: center;
+    box-shadow: 0 50vh 0 50vh #212121;
 }
 
 @media screen and (max-width: 320px) {
